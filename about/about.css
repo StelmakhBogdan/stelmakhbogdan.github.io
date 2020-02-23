@@ -362,11 +362,13 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
     display: flex;
     width: 100%;
     justify-content: center;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 720px) {
   .profile {
+    object-fit: cover;
     display: flex;
     width: 100%;
     justify-content: center;
