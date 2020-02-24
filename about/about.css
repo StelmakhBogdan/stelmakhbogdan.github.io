@@ -270,7 +270,7 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
  main {
    display: flex;
    flex-direction: column;
-   height: 85%;
+   height: 100%;
  }
 
 .about {
@@ -368,10 +368,7 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
 
 @media (max-width: 720px) {
   .profile {
-    object-fit: cover;
-    display: flex;
     width: 100%;
-    justify-content: center;
   }
 }
 
