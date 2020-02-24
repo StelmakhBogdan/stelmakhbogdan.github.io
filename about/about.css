@@ -325,7 +325,7 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
 .profile img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -360,7 +360,7 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
 
   .profile {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     justify-content: center;
     object-fit: cover;
   }
@@ -368,7 +368,7 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
 
 @media (max-width: 720px) {
   .profile {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
