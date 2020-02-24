@@ -325,14 +325,12 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
 .profile img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 @media (max-width: 1024px) {
   .book-info {
-    height: auto;
-    width: 100%;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -360,7 +358,7 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
 
   .profile {
     display: flex;
-    max-width: 100%;
+    width: auto;
     justify-content: center;
     object-fit: cover;
   }
@@ -368,7 +366,7 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
 
 @media (max-width: 720px) {
   .profile {
-    max-width: 100%;
+    width: auto;
   }
 }
 
