@@ -332,7 +332,7 @@ footer {
 .flex-footer {
   justify-content: space-between;
   display: flex;
-  flex-wrap: wrap;.
+  flex-wrap: wrap;
   text-align: center;
   align-items: center;
 }
